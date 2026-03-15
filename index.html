@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>restaurant web</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <header>
+  <h1 class="brand name">Savoryco</>
+    <button class="menu-btn">&#9776 
+  </button>
+<nav class="nav-hidden">
+  <ul class="nav-links">
+  <li><a href="#hero">Home</a></li>
+  <li><a href="#menu">Menu</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<section id="hero" class="hero">
+  <h2>Dine with Savoryco Today</h2>
+  <p>Delicious burgers, fresh fries and handmade shakes just for you!</p>
+  <img src="burger.jpg"
+       alt="Delicious burger"
+       class="hero-img">
+  <button
+          onclick="document.getElementById('order').scrollIntoView({behaviour: 'smooth'})">
+    Order Now
+  </button>
+</section>
+
+<section id="menu" class="menu-grid">
+  <h1>Our Menu</h1>
+  <div class="menu-category">
+    <h2>Burgers</h2>
+      <div class="menu-item">
+        <h3>Cheeseburger deluxe</h3>
+        <p>juicy beef patty with cheese, lettuce and tomato with melted cheese.</p>
+        <p>&#8358; 15,000</p>
+      </div>
+   
+      <div class="menu-category">
+        <h3>Sides</h3>
+        <div class="menu-item">
+          <h3>French Fries</h3>
+          <p>Crispy golden fries.</p>
+          <p>&#8358 15,000</p>
+        </div>
+        <div class="menu-item">
+          <h3>Onion Rings</h3>
+          <p>Crispy fried onion rings.</p>
+          <p>&#8358 20,000</p>
+          </div>
+        
+       
+          <div class="menu-category">
+            <h3>Desserts</h3>
+            
+            <div class="menu-item">
+            <h3>Chocolate Milkshake</h3>
+            <p>Rich creamy milkshake.</p>
+            <p>&#8358;17,000</p>
+        </div>
+        
+        <div class="menu-item">
+          <h3>Strawberry Ice Cream</h3>
+          <p>Cold creamy dessert.</p>
+          <p>&#8358;12,000</p>
+        </div>
+        </div>
+      </section>
+    
+    <section id="gallery"
+             class="gallery"
+             <h2>Our Gallery</h2>
+  <div class="gallery-images">
+    <img src="https://postimg.cc/MMH7JnV5%5D%5Bimg%5Dhttps://i.postimg.cc/MMH7JnV5/e94bcf62b30827c59287d2efcef8513e.jpg%5B/img%5D%5B/url"
+         alt="Delicious burger">
+    <img src=""
+         alt="Crispy fries">
+    <img src="milkshake.jpg"
+         alt="Milkshake">
+    <img src="icecream.jpg"
+         alt="Icecream">
+  </div>
+  </section>
+
+<section id="order" class="order">
+  <h2>Place your order</h2>
+  <form>
+    <input type="text"
+           placeholder="Your Name" required>
+    <input type="number"
+           placeholder="Quantity" required>
+    <input type="phone number"
+           placeholder="Tel" required>
+    <input type="address"
+           placeholder="address" required>
+    
+    <h3>Order Details</h3>
+    <label>Name of Snack</label>
+    <select>
+      <option>Select Snack</option>
+      <option>Cheeseburger Deluxe</option>
+      <option>French Fries</option>
+      <option>Chocolate Milkshake</option>
+      <option>Strawberry Ice cream</option>
+    </select>
+    <button type="submit">Submit Order</button>
+  </form>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <p><strong>Location:</strong>Abuja, Nigeria</p>
+    
+    <p><strong>Phone:</strong>08159367883</p>
+    
+    <p><strong>Email:</strong>savoryco@email.com</p>
+  </div>
+  
+  <div class="hours">
+    <h2>Opening Hours</h2>
+    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+    <p>Saturday: 10:00 AM - 2:00 PM
+    <p>Sunday: Closed</p>
+    
+  </div>
+  
+  <p  class="contact-note">
+    We look forward to serving you.
+    Dine with Savoryco today.
+    
+</section>
+
+<footer>
+  <p>Dine with Savoryco today.</p>
+  <p>Thanks for your patronage&#10084;</p>
+</footer>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
